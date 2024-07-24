@@ -96,9 +96,11 @@
 
     <script>
     document.addEventListener('click', musicPlay);
+    document.addEventListener('touchend', musicPlay);
     function musicPlay() {
         document.getElementById('musicPlay').play();
         document.removeEventListener('click', musicPlay);
+        document.removeEventListener('touchend', musicPlay);
     }
     </script>
 </head>
@@ -135,11 +137,15 @@
     <div style="margin-left: auto; margin-right: auto; width: 50%; margin-top: 50px; margin-bottom: 50px" id="schedule">
         <table width="100%" cellspacing="5" cellpadding="5" border="5" bordercolor="#ffc99f" bgcolor="#89827d">
             <tr>
-                <th style="text-align: center;" colspan="2">
+                <th style="text-align: center;" colspan="3">
                     <img style="position: relative; top: -90px; left: 199px" src="images/sparkle-1.gif"></img>
                     <img style="width: 600px" class="responsive" src="images/schedule.png">
             
                     <img style="position: relative; top: -20px; left: -300px" src="images/sparkle-2.gif"></img>
+                
+                    <h3>Come to our big stupid rectangle house,
+                        <a href="https://maps.app.goo.gl/RayNB6FyRJ3dNXCP7">831 Techwood Drive</a>
+                    !</h3>
                 </th>
             </tr>
 
@@ -153,6 +159,14 @@
 
                     <img src="images/gamestik_gif.gif">
                 </td>
+                <td>
+                    UNO REVERSE!!!
+                    <ul>
+                        <li>Roll Dice</li>
+                        <li>Battle Friends</li>
+                        <li>Win pinball</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -163,6 +177,14 @@
                     <h2>Arts and Witchcraft Night</h2>
                     
                     <img src="images/witchcaul.gif">
+                 </td>
+                 <td>
+                    Double, double toil and trouble...Express thyself, or turn to rubble!
+                    <ul>
+                        <li>Whittle Wands</li>
+                        <li>Read Tarot</li>
+                        <li>Paint Cursed Images</li>
+                    </ul>
                  </td>
             </tr>
             <tr>
@@ -176,6 +198,15 @@
                     <img src="images/jackhammer.gif">
                     <img src="images/tea.gif">
                  </td>
+                 <td>
+                    Raise your pinkies high and your sledgehammers higher!
+                    <ul>
+                        <li>Drink tea</li>
+                        <li>Smash TVs</li>
+                        <li>Unleash inner rage</li>
+                    </ul>
+                    <b>Please wear closed-toed shoes and long pants!</b>
+                 </td>
             </tr>
             <tr>
                 <td>
@@ -186,6 +217,14 @@
                     <h2>Carnival Night</h2>
 
                     <img src="images/circus.gif">
+                 </td>
+                 <td>
+                    Step right up! One night only!
+                    <ul>
+                        <li>Clown around</li>
+                        <li>Wrangle balloons</li>
+                        <li>Pie faces</li>
+                    </ul>
                  </td>
             </tr>
             <tr>
@@ -199,6 +238,14 @@
                     <img src="images/science-1.gif">
                     <img src="images/science-2.gif">
                  </td>
+                 <td>
+                    It's alive! IT'S ALIVEEEEE!
+                    <ul>
+                        <li>Concoct Horrors</li>
+                        <li>Witness mysteries</li>
+                        <li>Breach the unknown</li>
+                    </ul>
+                 </td>
             </tr>
             <tr>
                 <td>
@@ -209,7 +256,28 @@
                     <h2>Potato Night</h2>
 
                     <img src="images/potato.gif">
-                 </td>
+                </td>
+                <td>
+                    An eye whence mere spuds shall wreak havoc upon the earth...
+                    <ul>
+                        <li>Eat friends</li>
+                        <li>Make enemies</li>
+                        <li>Burn false idols</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    Questions?
+
+                    Contact our VP on Member Education.<br/>
+                    <ul>
+                    <li>Eli Miller (she/her)</li>
+                    <li>emiller305<span style="display:none">nope</span>@gatech.edu</li>
+                    <li>767-64<span style="display:none">nope</span>1-2304</li>
+                    </ul>
+                </td>
             </tr>
         </table>
     </div>
