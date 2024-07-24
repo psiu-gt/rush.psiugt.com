@@ -4,10 +4,215 @@
     <meta charset="UTF-8">
     <title>Rush Psi Upsilon Gamma Tau 2024</title>
     <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-image: url("images/flag.gif");
+            background-repeat: repeat;
 
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+
+        #banner {
+            width: 100%;
+            text-align: center;
+            background-image: url("images/banner-background.png");
+        }
+
+        .overlay-lightning {
+            background-image: url("images/lightning.gif");
+            background-size: cover;
+        }
+
+        img .responsive {
+            width: 100%;
+            height: auto;
+        }
+
+        #ribbon {
+            background-image: url("images/sprite13.png");
+            background-repeat: repeat-x;
+            width: 100%;
+            height: 4px;
+        }
+
+        .intro {
+            text-align: center;
+            color: white;
+            font-size: large;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Times, "Times New Roman", serif;
+        }
+
+        .button {
+            box-sizing: border-box;
+            border: solid 5px #959595;
+            border-top-color: #fff;
+            border-left-color: #fff;
+            width: 140px;
+            height: 60px;
+            display: inline-block;
+            background-color: #c3c3c3;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, .75);
+            font-size: 13px;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 0 3px 0;
+        }
+
+        .box {
+            box-sizing: border-box;
+        }
+
+        .box.id-2 {
+            width: 100%;
+            height: 145px;
+            left: 0;
+            top: 102px;
+            background-color: #ffc89e;
+            border: solid 1px #fff;
+            border-bottom-color: grey;
+            border-top-style: none;
+            padding: 2px 2px 0 2px;
+        }
+
+        .box .cell {
+            border: solid 1px #ffc99f;
+            height: 20px;
+            padding: 1px;
+        }
+
+        .box.id-2 .cell.id-1 {
+            height: 100%;
+            width: 32%;
+            left: 0;
+            padding-right: 0;
+        }
     </style>
+
+    <script>
+    document.addEventListener('click', musicPlay);
+    function musicPlay() {
+        document.getElementById('musicPlay').play();
+        document.removeEventListener('click', musicPlay);
+    }
+    </script>
 </head>
 <body>
-    <h1></h1>
+    <!-- muzak -->
+    <audio id="musicPlay" style="display: none" controls autoplay loop>
+        <source src="https://blog.ammaraskar.com/assets/misc_files/keygen-boosted-lowbitrate.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="banner">
+        <img class="overlay-lightning" src="images/coat-of-arms.png">
+        <img style="width: 900px" class="responsive" alt="Rush Psi Upsilon" src="images/banner.png">
+        <img class="overlay-lightning" src="images/coat-of-arms.png">
+    </div>
+    <div id="ribbon"></div>
+
+    <!-- why psi u explanation -->
+    <p class="intro">
+        <img src="images/hello.gif">
+
+        Nice to meet you! We are Psi Upsilon’s Gamma Tau chapter and we’re Georgia Tech’s only and premier gender inclusive social fraternity. Founded in 1970, we have a rich history that spans decades.
+
+        We are a tight knit group of brothers who appreciate and encourage diversity in all forms; whether you’re interested in video games, music, flow arts, or anything else, we have a place for you! We are a mix of everything: gamers, mad scientists, adventurers, musicians, and more! On a weekly basis you can find our brothers volunteering around Atlanta, studying hard, mentoring each other, and connecting with our many distinguished alumni.
+    </p>
+
+    <p class="intro">
+        <b style="font-size: large; color:white; padding-right: 20px">“I don't know if I’m the fraternity type…”</b>
+        Neither did we! In fact, one of the most common things you’ll hear about our members' experiences is that they never intended to rush or join a fraternity. Our culture is rooted heavily in being a non-traditional and non-stereotypical fraternity. We might share a lot of the same values of brotherhood that other fraternities do, but we pride ourselves on being an incredibly diverse group of people. We have brothers that make sure to get tickets for every Jackets game, but we also have brothers that spend their time playing D&D, writing music, or whining about Java. We go to Dragon*Con, we go camping, and we go on spontaneous adventures.
+    </p>
+    <p class="intro">
+        <a style="width: 300px; font-size:1em" href="https://www.psiugt.com/" class="button">Learn more on our main website</a>
+    </p>
+
+    <div style="margin-left: auto; margin-right: auto; width: 50%; margin-top: 50px; margin-bottom: 50px" id="schedule">
+        <table width="100%" cellspacing="5" cellpadding="5" border="5" bordercolor="#ffc99f" bgcolor="#89827d">
+            <tr>
+                <th style="text-align: center;" colspan="2">
+                    <img style="position: relative; top: -90px; left: 199px" src="images/sparkle-1.gif"></img>
+                    <img style="width: 600px" class="responsive" src="images/schedule.png">
+            
+                    <img style="position: relative; top: -20px; left: -300px" src="images/sparkle-2.gif"></img>
+                </th>
+            </tr>
+
+            <tr>
+                <td style="width:20%">
+                   August 17th, 2024<br>
+                   <i>Saturday</i>
+                </td>
+                <td>
+                    <h2>Game Night</h2>
+
+                    <img src="images/gamestik_gif.gif">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    August 18th, 2024<br>
+                    <i>Sunday</i>
+                 </td>
+                 <td>
+                    <h2>Arts and Witchcraft Night</h2>
+                    
+                    <img src="images/witchcaul.gif">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    August 19th, 2024<br>
+                    <i>Monday</i>
+                 </td>
+                 <td>
+                    <h2>Tea and Destruction Night</h2>
+
+                    <img src="images/jackhammer.gif">
+                    <img src="images/tea.gif">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    August 20th, 2024<br>
+                    <i>Tuesday</i>
+                </td>
+                <td>
+                    <h2>Carnival Night</h2>
+
+                    <img src="images/circus.gif">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    August 21st, 2024<br>
+                    <i>Wednesday</i>
+                </td>
+                <td>
+                    <h2>Mad Science Night</h2>
+
+                    <img src="images/science-1.gif">
+                    <img src="images/science-2.gif">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    August 22nd, 2024<br>
+                    <i>Thursday</i>
+                </td>
+                <td>
+                    <h2>Potato Night</h2>
+
+                    <img src="images/potato.gif">
+                 </td>
+            </tr>
+        </table>
+    </div>
+    
 </body>
 </html>
