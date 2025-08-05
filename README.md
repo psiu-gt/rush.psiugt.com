@@ -1,3 +1,3 @@
-# Fall '24 Rush
+# Rush Website
 
-Geocities moment
+This repository is where https://rush.psiugt.com/ is from deployed from.
